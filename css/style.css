@@ -1,0 +1,147 @@
+
+
+.navbar-default {
+  background-color: #68686b;
+  border-bottom-color: #68686b;
+}
+
+body {
+  background-color: #252839;
+  font-family: Montserrat, Serrif;
+}
+
+
+
+a {
+  color: #f2b632;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+navbar {
+  margin-bottom: 10px;
+  
+}
+
+nav h3 {
+  text-align: center;
+  color: white;
+
+}
+
+
+
+/*.carousel-box {
+  height: inherit;
+}*/
+
+#myCarousel {
+  width: 100%;
+  /*height: 600px;*/
+  max-height: 450px;
+  overflow: hidden;
+
+}
+
+.moreTopMargin {
+  margin-top: 10px;
+}
+
+.image-responsive {
+  margin: 0 auto;
+}
+
+.boxed {
+  height: 150px;
+  width: 100%;
+  border: 2px solid #68686b;
+  font-size: 18px;
+  margin-top: 10px;
+  
+  
+}
+
+
+
+
+.boxed:hover {
+  background-color: #f2b632;
+  
+}
+
+
+
+.back {
+  background-color: white;
+}
+
+#brandOverlay {
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align:center;
+  padding: 90px 20px 20px 20px;
+  
+}
+
+
+#brandOverlay img {
+  background-color: white;
+  margin: 5px;
+}
+
+#aboutOverlay, #visitOverlay {
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align:center;
+  padding: 90px 20px 20px 20px;
+  color: white;
+}
+
+
+
+
+#social {
+  text-align: center;
+  color: #f2b632;
+  height: 150px;
+  width: 100%;
+  border: 2px solid #68686b;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#social img {
+  margin: 6px;
+  align-self: center;
+
+}
+
+#footer {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  
+}
+
+
+
+@media screen and (min-width: 480px) {
+  #myCarousel {
+    height: 450px;
+  }
+
+}
+
